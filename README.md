@@ -1,2 +1,2 @@
 # passwdgen
-Password generator made in C++
+Not so great password generator made in C++
