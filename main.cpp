@@ -20,16 +20,13 @@ void passgen(int input)
     std::random_device rd;
     std::mt19937 rng(rd());
     std::uniform_int_distribution<int> uni(0,76);
-    int rando = uni(rng);
+    int randnum = uni(rng);
 
         for (int i = 0; i < input; i++) 
         {
-            std::cout << characters.chr[std::rand()%rando];
-            
+            std::cout << characters.chr[std::rand()%randnum];            
         }
-        
 }
-
 
 int main (int input, char* argv[])
 {
